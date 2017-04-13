@@ -2,10 +2,16 @@ function Data(val) {
     this.val = val;
 }
 
+/**
+ * Get value from Data object
+ */
 Data.prototype.getValue = function() {
     return this.val;
 }
 
+/**
+ * Set value to Data object
+ */
 Data.prototype.setValue = function(value) {
     this.val = value;
 }
